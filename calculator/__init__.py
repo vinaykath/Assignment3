@@ -5,7 +5,7 @@ class Calculator:
     @staticmethod
     def addition(a,b):
         result = UserInput(a, b, add)  
-        # adding function from calculator.actions
+        # Adding function from calculator.actions
         return result.result()
     @staticmethod
     def subtraction(a,b):
